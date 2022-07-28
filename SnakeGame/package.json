@@ -1,11 +1,13 @@
 {
   "name": "snakegame",
+  "homepage" : "http://aadityasemwal7.github.io/snake-game",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "npm run build && gh-pages -d dist -b master"
+    "deploy": "npm run build && gh-pages -d dist"
+    
   },
   "repository": {
     "type": "git",
